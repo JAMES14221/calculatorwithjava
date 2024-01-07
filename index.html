@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Demo JavaScript in Body</h2>
+
+<p id="demo">A Paragraph.</p>
+
+<input id="x_in" type="text">
+<input id="y_in" type="text">
+
+<button type="button" onclick="ask()">Get value</button>
+
+<button type="button" onclick="plus()">Plus</button>
+<button type="button" onclick="minus()">Minus</button>
+<button type="button" onclick="multi()">Multiply</button>
+<button type="button" onclick="divide()">Divide</button>
+
+
+
+<script>
+    let x,y;
+function ask() {
+
+    x= Number(document.getElementById("x_in").value);
+    y= Number(document.getElementById("y_in").value);
+}
+
+function plus() {
+  alert(x+y);
+}
+
+function minus() {
+    alert(x-y);
+  }
+
+  function multi() {
+    alert(x*y);
+  }
+
+  function divide() {
+    alert(x/y);
+  }  
+
+</script>
+
+</body>
+</html> 
